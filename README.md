@@ -9,8 +9,10 @@ selfLearningChessBot2
 
 -----------------------------
 ${terraform.workspace}dApp_⿻
+###
 *𐌕𐌄𐌔𐌕𐌉𐌍Ᏽ ıllıllı VM·Protocols
-/noCoverage
+###
+{🔧}
 
 
 ###
