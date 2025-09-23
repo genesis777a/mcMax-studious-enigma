@@ -1,0 +1,27 @@
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Wait until we know the daemon has started.
+Opening shared memory
+Shared memory sized: 4096
+Starting the store
+Reading settings from '/Users/anej/UnrealEngine/UnrealTrace/Settings.ini'
+
+Unable to open settings file /Users/anej/UnrealEngine/UnrealTrace/Settings.ini.
+
+Store settings (/Users/anej/UnrealEngine/UnrealTrace/Settings.ini):
+ - Store port: 1989
+ - Recorder port: 1981
+ - Thread count: 0
+ - Sponsored mode: 1
+ - Directory: '/Users/anej/UnrealEngine/UnrealTrace/Store/001'
+Signalling parent 37615
+Parent received signal 30
+Daemon signalled successful start
+Forked complete (ret=0)
+Terminating server, no sponsors or connections active.
+Received signal 15
+Daemon is exiting without errors.
+Listening cancelled, closing port...
+Listening cancelled, closing port...
