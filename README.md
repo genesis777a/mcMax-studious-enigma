@@ -6,10 +6,24 @@ ${terraform.workspace}dApp_⿻
 
 __codeVerter AI__
 *  pretrained ultrathin LLM orcestration
-*  35 programming languages
+*  basic deployable neural network 🌱
+*  binary, W/B logic, 10 connectors
+*  25++ programming languages
 *  SQL architecture
 *  shell input 💉
 
 
 JS Bin: 
 An open source collaborative web development and debugging tool 🚯
+
+
+const CodeVerter = () => {
+  const languages = [
+-    'Python', 'JavaScript', 'TypeScript', 'Java', 'C++', 'C#', 'C', 'Go', 
+-    'Rust', 'Swift', 'Kotlin', 'PHP', 'Ruby', 'Scala', 'R', 'MATLAB', 
+-    'Perl', 'Haskell', 'Lua', 'Dart', 'Elixir', 'F#', 'Clojure', 
+-    'Objective-C', 'Visual Basic'
+-    ];
+
+  const [sourceCode, setSourceCode] = useState(`${t('exampleComment')}\ndef fibonacci(n):\n  if n <= 1:\n  return n\n  return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))`)
+
