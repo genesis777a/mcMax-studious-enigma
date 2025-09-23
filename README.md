@@ -1,5 +1,7 @@
 ## Chess♟️
 ###
+--pluggin--
+###
 Python vs. JavaScript!
 ###
 /selfLearningChessBot1 vs. 
