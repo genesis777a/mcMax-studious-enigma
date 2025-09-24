@@ -14,7 +14,7 @@ ${terraform.workspace}dApp_⿻
 ###
 *𐌕𐌄𐌔𐌕𐌉𐌍Ᏽ ıllıllı VM·Protocols
 ###
-{🔧}
+{🧰}
 
 
 ###
@@ -29,7 +29,7 @@ __codeVerter AI__
 
 ###
 JS Bin: 
-An open source collaborative web development and debugging tool 🚯
+An open source collaborative web development and debugging tool 🪥🚯
 
 
 ###
