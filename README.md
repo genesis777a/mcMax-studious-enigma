@@ -1,4 +1,4 @@
-## GarageUnit✅🐸
+## Project_381_GarageUnit✅🐸
 Use <%F0%9F%A7%B0> to fix something! [⚙️🔧]
 ## Chess♟️
 ###
@@ -18,9 +18,9 @@ ${terraform.workspace}dApp_⿻
 
 
 ###
-__codeVerter AI__
-*  pretrained ultrathin LLM orcestration
-*  basic deployable neural network 🌱
+__basicMaze AI__
+*  pretrained ultrathin ML orchestration
+*  Output: basic deployable neural network 🌱
 *  binary, W/B logic, 10 connectors
 *  25++ programming languages
 *  SQL architecture
