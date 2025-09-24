@@ -29,7 +29,7 @@ __codeVerter AI__
 
 ###
 JS Bin: 
-An open source collaborative web development and debugging tool 🪥🚯
+An open source collaborative web development and debugging tool🚯
 
 
 ###
@@ -41,5 +41,5 @@ const CodeVerter = () => {
 -    'Objective-C', 'Visual Basic'
 -    ];
 
-  const [sourceCode, setSourceCode] = useState(`${t('exampleComment')}\ndef fibonacci(n):\n  if n <= 1:\n  return n\n  return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))`)
+  🪥const [sourceCode, setSourceCode] = useState(`${t('exampleComment')}\ndef fibonacci(n):\n  if n <= 1:\n  return n\n  return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))`)
 
