@@ -1,11 +1,9 @@
-## Project_381_382_GarageUnit✅🐸
+## Project_381_382_GarageUnit_✅🐸
 This board game is #Error01
 ###
 Use <%F0%9F%A7%B0> to fix something! [⚙️🔧]
 Start.
 ## Chess♟️
-###
---pluggin--
 ###
 Python vs. JavaScript!
 ###
