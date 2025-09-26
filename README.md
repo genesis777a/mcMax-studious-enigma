@@ -1,7 +1,7 @@
 ## Project_381_382_GarageUnit_✅🐸
 This board game is #Error01
 ###
-Use <%F0%9F%A7%B0> to fix something! [⚙️🔧]
+Use <%F0%9F%A7%B0> to fix something! [⚙️🪛]
 ###
 Start.
 ## Chess♟️
@@ -21,7 +21,7 @@ ${terraform.workspace}dApp_⿻
 ###
 __basicMaze AI__
 *  ultrathin ML sandbox => GeoBricks 𓏠
-*  Output: basic deployable neural network 🌱
+*  Output: basic deployable neural network 🪴
 *  binary W/B logic, 10 connectors
 *  25++ programming languages
 *  SQL architecture
@@ -43,5 +43,6 @@ const CodeVerter = () => {
 -    ];
 ###
 ###
-  🪥const [sourceCode, setSourceCode] = useState(`${t('exampleComment')}\ndef fibonacci(n):\n  if n <= 1:\n  return n\n  return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))`)
+----------------------------------
+🪮const [sourceCode, setSourceCode] = useState(`${t('exampleComment')}\ndef fibonacci(n):\n  if n <= 1:\n  return n\n  return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(10))`)
 
