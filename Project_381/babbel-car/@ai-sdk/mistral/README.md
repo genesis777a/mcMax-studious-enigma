@@ -25,8 +25,8 @@ import { mistral } from '@ai-sdk/mistral';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
-  model: mistral('mistral-large-latest'),
-  prompt: 'Write a vegetarian lasagna recipe for 4 people.',
+  model: mistral('mistral-mini-latest'),
+  prompt: 'Write instructions for the Travelling Salesman's path from point A to point B.',
 });
 ```
 
