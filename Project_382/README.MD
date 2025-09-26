@@ -17,9 +17,9 @@ Termit 🐜
 * Two one-brick pre-trained [9-connectors!] neural networks are set to escape the maze grid ⊞
 * The board can be further customized (adding more /complex/ logical operations, for ex., building side-player agents' behavior trees in video gaming).
 * For a manual reset, click the � button. 
+* ~o~
 * The container [[.382]] is -on purposely- isolated from the Project_381 for analysis purposes.
 * = the pursuit of finding ideal algorithms that maximize rewards with a less invasive, non-tensor set of concepts.
-* ~o~
 * {In} Hidden segmentations, black and red arrays, encrypted tags. 
 * [Out] Party Freeze Dance Song 🌱
 * /noCoverage
@@ -49,6 +49,7 @@ RUN pip install git+https://github.com/stanford-futuredata/stk.git@main
 RUN pip install flash-attn
 ENV PYTHONPATH="/mount/megablocks/third_party/Megatron-LM:${PYTHONPATH}"
 - [ ] WORKDIR /mount/megablocks
+
 
 
 
