@@ -6,14 +6,14 @@ npx checkly sync-playwright
 /*                               micro-Max,                                */
 /* A chess program smaller than 2KB (of non-blank source), by H.G. Muller  */
 /***************************************************************************/
-/* version 3.2 (2000 characters) features:                                                */
-/* - recursive negamax search                                                                   */
-/* - quiescence search with recaptures                                                     */
-/* - recapture extensions                                                                             */
-/* - (internal) iterative deepening                                                               */
-/* - best-move-first 'sorting'                                                                       */
-/* - a hash table storing score and best move                                          */
-/* - full FIDE rules (expt minor ptomotion) and move-legality checking */
+/* version 3.2 (2000 characters) features:                                 */
+/* - recursive negamax search                                              */
+/* - quiescence search with recaptures                                     */
+/* - recapture extensions                                                  */
+/* - (internal) iterative deepening                                        */
+/* - best-move-first 'sorting'                                             */
+/* - a hash table storing score and best move                              */
+/* - full FIDE rules (expt minor ptomotion) and move-legality checking     */
 
 #include <stdio.h>
 #include <math.h>
