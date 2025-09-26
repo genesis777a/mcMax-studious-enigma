@@ -2,6 +2,7 @@
 This board game is #Error01
 ###
 Use <%F0%9F%A7%B0> to fix something! [⚙️🔧]
+###
 Start.
 ## Chess♟️
 ###
@@ -9,12 +10,11 @@ Python vs. JavaScript!
 ###
 /selfLearningChessBot1 vs. 
 selfLearningChessBot2
-
 -----------------------------
 ${terraform.workspace}dApp_⿻
 ###
 *𐌕𐌄𐌔𐌕𐌉𐌍Ᏽ ıllıllı VM·Protocols
-###
+
 {🧰}
 
 ###
