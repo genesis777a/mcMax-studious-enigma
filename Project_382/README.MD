@@ -6,8 +6,8 @@ SANDBOX.env
 * simulates a PC virus behavior.
 * super useful for finding 'holes' in the system 🦠
 ###
-###
-'Game' logic:
+
+## 'Game' logic:
 * Implementation: A-path finding algorithm. /array/
 * Collaborative behavior reinforcement learning (*MARL) -> graph neural network (GNN)
 * https://doi.org/10.1016/j.knosys.2024.112665 & https://doi.org/10.1016/j.patcog.2025.112093
@@ -27,7 +27,10 @@ The content of this repository is at your disposal at your own risk.
 #🔬
 ###
 _testingUnit
+###
 _autoParsingFunc
+###
+©GENESIS24⭕️
 
 ---------------------------------
 
@@ -42,16 +45,5 @@ FROM nvcr.io/nvidia/pytorch:23.01-py3
 RUN pip install git+https://github.com/stanford-futuredata/stk.git@main
 RUN pip install flash-attn
 ENV PYTHONPATH="/mount/megablocks/third_party/Megatron-LM:${PYTHONPATH}"
-- [ ] WORKDIR /mount/megablocks
+- [ ] WORKDIR /mount/megablocks'''
 ###
-
-
-©GENESIS24⭕️
-
-
-
-
-
-
-
-
