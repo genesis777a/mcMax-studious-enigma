@@ -1,5 +1,6 @@
 //🖳
-//
+//%F0%9F%96%B2%EF%B8%8F
+
 async function init() {
   browser.runtime.onMessage.addListener(async (msg) => {
     switch (msg.action) {
