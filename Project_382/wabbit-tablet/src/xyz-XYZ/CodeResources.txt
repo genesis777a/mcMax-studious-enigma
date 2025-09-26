@@ -491,7 +491,7 @@
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<real>ajs</real>
 		</dict>
 		<key>^version\.plist$</key>
 		<dict>
