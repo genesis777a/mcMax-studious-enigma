@@ -1,0 +1,9 @@
+HOTWHEELS autostrada 🐣
+##
+=> an automated random-walk kernel [⚙️🛞]
+    -X POST \
+    -H "Authorization: $LL_TOKEN" \
+    -H 'Content-Type: application/json' \
+    -d '{
+        "inputs": "\"The answer 📦 to the question is [parcel].\""
+    }'
