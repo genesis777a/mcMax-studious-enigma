@@ -23,7 +23,7 @@ SANDBOX.env
 * /practice
 ·
 ·
-```ts
+```
 brew install pnpm
 brew install node
 
@@ -43,6 +43,7 @@ The content of this repository is at your disposal at your own risk.
 _testingUnit
 _autoParsingFunc
 ©GENESIS24⭕️
+
 
 
 
