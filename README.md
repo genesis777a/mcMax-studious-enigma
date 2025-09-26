@@ -1,5 +1,7 @@
-## Project_381_GarageUnit✅🐸
+## Project_381_382_GarageUnit✅🐸
+This board game is #Error01
 Use <%F0%9F%A7%B0> to fix something! [⚙️🔧]
+Start.
 ## Chess♟️
 ###
 --pluggin--
@@ -19,9 +21,9 @@ ${terraform.workspace}dApp_⿻
 
 ###
 __basicMaze AI__
-*  pretrained ultrathin ML orchestration
+*  ultrathin ML sandbox => GeoBricks 𓏠
 *  Output: basic deployable neural network 🌱
-*  binary, W/B logic, 10 connectors
+*  binary W/B logic, 10 connectors
 *  25++ programming languages
 *  SQL architecture
 *  shell input 💉
