@@ -13,6 +13,7 @@ Termit 🐜
 * Ref:
 * https://doi.org/10.1016/j.knosys.2024.112665  
 * https://doi.org/10.1016/j.patcog.2025.112093
+###
 * Two one-brick pre-trained [9-connectors!] neural networks are set to escape the maze grid ⊞
 * The board can be further customized (adding more /complex/ logical operations, for ex., building side-player agents' behavior trees in video gaming).
 * For a manual reset, click the � button. 
@@ -48,5 +49,6 @@ RUN pip install git+https://github.com/stanford-futuredata/stk.git@main
 RUN pip install flash-attn
 ENV PYTHONPATH="/mount/megablocks/third_party/Megatron-LM:${PYTHONPATH}"
 - [ ] WORKDIR /mount/megablocks
+
 
 
