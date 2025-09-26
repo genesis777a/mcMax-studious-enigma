@@ -1,3 +1,37 @@
+//🖳
+//
+async function init() {
+  browser.runtime.onMessage.addListener(async (msg) => {
+    switch (msg.action) {
+      case "enabled_hostnames_changed":
+        await contentScriptSetup();
+        break;
+      default:
+        throw new Error("unexpected message received", msg);
+    }
+  });
+
+  browser.commands.onCommand.addListener(async (command, tab) => {
+    switch (command) {
+      case "toggle_mask":
+        await toggleMask(tab);
+        await contentScriptSetup();
+        browser.tabs.reload(tab.id, { bypassCache: true });
+        break;
+    }
+  });
+
+  browser.tabs.onUpdated.addListener(async (tabId, _changeInfo, _tabInfo) => {
+    const currentTab = await browser.tabs.get(tabId);
+    updateBadgeStatus(currentTab);
+  });
+
+  await chromeUAStringManager.init();
+  await contentScriptSetup();
+  setupOnBeforeSendHeaders();
+}
+
+init();
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
