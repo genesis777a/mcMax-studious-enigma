@@ -23,6 +23,14 @@ SANDBOX.env
 * /practice
 ###
 ###
+The content of this repository is at your disposal at your own risk. 
+#🔬
+###
+_testingUnit
+_autoParsingFunc
+
+---------------------------------
+
 ```
 brew install pnpm
 brew install node
@@ -36,14 +44,10 @@ RUN pip install flash-attn
 ENV PYTHONPATH="/mount/megablocks/third_party/Megatron-LM:${PYTHONPATH}"
 - [ ] WORKDIR /mount/megablocks
 ###
----------------------------------
 
-The content of this repository is at your disposal at your own risk. 
-#🔬
-###
-_testingUnit
-_autoParsingFunc
+
 ©GENESIS24⭕️
+
 
 
 
