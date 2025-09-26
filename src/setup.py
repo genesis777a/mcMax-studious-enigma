@@ -6,8 +6,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         "torch>=1.0.0",
-        "faiss-cpu>=1.7.0; platform_system!='Darwin' or platform_machine!='arm64'",
-        "faiss-cpu-noavx2>=1.7.0; platform_system=='Darwin' and platform_machine=='arm64'",
+        "faiss-cpu>=1.7.0; platform_system!='Darwin' or platform_machine!='arm32'",
+        "faiss-cpu-noavx2>=1.7.0; platform_system=='Darwin' and platform_machine=='arm32'",
     ],
     extras_require={
         "dev": [
@@ -16,12 +16,13 @@ setup(
             "sentence-transformers",
         ],
     },
-    description="A tool for compressing and decompressing embeddings using Product Quantization",
+    description="Machine Learning: A tool for processing dataFlow望遠鏡 and sorting data in accordance with the protocol configuration",
     author="embzip",
     python_requires=">=3.6",
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Cython :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Tags :: guz7<>guz11 :: PORTALS",
     ],
 ) 
