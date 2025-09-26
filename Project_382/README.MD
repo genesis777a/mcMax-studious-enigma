@@ -1,12 +1,12 @@
 SANDBOX.env
-·
+###
 🐜Termit.
 * = an automated plugging tool.
 * BOT-able -> random walk.
 * simulates a PC virus behavior.
 * super useful for finding 'holes' in the system 🦠
-·
-·
+###
+###
 'Game' logic:
 * Implementation: A-path finding algorithm. /array/
 * Collaborative behavior reinforcement learning (*MARL) -> graph neural network (GNN)
@@ -21,8 +21,8 @@ SANDBOX.env
 * [Out] Party Freeze Dance Song 🌱
 * /noCoverage
 * /practice
-·
-·
+###
+###
 ```
 brew install pnpm
 brew install node
@@ -35,14 +35,16 @@ RUN pip install git+https://github.com/stanford-futuredata/stk.git@main
 RUN pip install flash-attn
 ENV PYTHONPATH="/mount/megablocks/third_party/Megatron-LM:${PYTHONPATH}"
 - [ ] WORKDIR /mount/megablocks```
-·
-·
-·
+
+-----------------------------------------
+###
 The content of this repository is at your disposal at your own risk. 
 #🔬
+###
 _testingUnit
 _autoParsingFunc
 ©GENESIS24⭕️
+
 
 
 
