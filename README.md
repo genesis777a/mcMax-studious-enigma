@@ -20,7 +20,7 @@ ${terraform.workspace}dApp_⿻
 ###
 ###
 __basicMaze AI__
-*  ultrathin ML sandbox => GeoBricks 𓏠
+*  ultrathin ML sandbox => GeoBricks 𓏠 Independent GPT created by the author. Not affiliated with or officially recommended by OpenAI.
 *  Output: basic deployable neural network 🪴
 *  binary W/B logic, 10 connectors
 *  25++ programming languages
