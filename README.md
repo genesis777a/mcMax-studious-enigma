@@ -28,9 +28,8 @@ __basicMaze AI__
 *  ultrathin pretrained ML sandbox => GeoBricks.env 𓏠 Independent GPT created by the author. Not affiliated with or officially recommended by OpenAI.
 *  Output: basic deployable neural network 🪴
 *  binary W/B logic, 10 connectors
-*  25++ programming languages
 *  SQL architecture
-*  shell input 💉
+*  DOS / shell input 💉
 ###
 ###
 JS Bin: 
