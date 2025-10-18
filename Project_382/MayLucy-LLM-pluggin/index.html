@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mind Maze: arm32</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #0f0f0f;
+      color: #00ff99;
+      margin: 0;
+      padding: 0;
+    }
+    #id_no_parse {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .tool-block {
+      background-color: #1a1a1a;
+      border: 2px solid #00ff99;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    h2 {
+      margin-top: 0;
+      color: #00ffff;
+    }
+    textarea, input, button, canvas {
+      width: 100%;
+      margin-top: 10px;
+      background-color: #000;
+      color: #00ff99;
+      border: 1px solid #00ff99;
+      padding: 5px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 2px solid #00ff99;
+    }
+  </style>
+</head>
+<body>
+  <div id="id_no_parse">
+    <!-- Embedded iframe for docs/images -->
+    <div class="tool-block">
+      <h2>📄 Embedded Docs</h2>
+      <iframe src="your-docs.html"></iframe>
+    </div>
+
+    <!-- Calculator Tool -->
+    <div class="tool-block">
+      <h2>🧮 Calculator</h2>
+      <input type="text" id="calcInput" placeholder="Enter expression" />
+      <button onclick="calculate()">Solve</button>
+      <p id="calcResult"></p>
+    </div>
+
+    <!-- Drawing + Writing Canvas -->
+    <div class="tool-block">
+      <h2>🎨 Canvas & Notes</h2>
+      <canvas id="drawCanvas" width="400" height="300"></canvas>
+      <textarea id="textArea" placeholder="Write your notes here..."></textarea>
+    </div>
+
+    <!-- Ruler + Color Palette -->
+    <div class="tool-block">
+      <h2>📏 Design Tools</h2>
+      <input type="range" min="0" max="100" />
+      <input type="color" />
+    </div>
+
+    <!-- DOSBox-style Code Editor -->
+    <div class="tool-block">
+      <h2>💾 Code Block</h2>
+      <textarea id="codeEditor" placeholder="Write your code here..." rows="10"></textarea>
+      <button onclick="runCode()">Run</button>
+      <pre id="codeOutput"></pre>
+    </div>
+  </div>
+
+  <script>
+    function calculate() {
+      const input = document.getElementById('calcInput').value;
+      try {
+        const result = eval(input);
+        document.getElementById('calcResult').innerText = 'Result: ' + result;
+      } catch (e) {
+        document.getElementById('calcResult').innerText = 'Error: Invalid expression';
+      }
+    }
+
+    function runCode() {
+      const code = document.getElementById('codeEditor').value;
+      try {
+        const output = eval(code);
+        document.getElementById('codeOutput').innerText = output;
+      } catch (e) {
+        document.getElementById('codeOutput').innerText = 'Error: ' + e.message;
+      }
+    }
+  </script>
+</body>
+</html>
