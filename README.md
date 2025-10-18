@@ -4,43 +4,41 @@ This board game is #Error02
 Use <%F0%9F%A7%B0> to fix something! [⚙️🪛]
 ###
 Start.
-## Chess♟️
+## RUN ♟️
 ###
-Python vs. JavaScript!
+Python vs. JavaScript tournament!
 ###
-/selfLearningChessBot1 vs. 
-selfLearningChessBot2
+/selfLearningBrick1 vs. 
+selfLearningBrick2
 -----------------------------
 ${terraform.workspace}dApp_⿻
 ###
 *𐌕𐌄𐌔𐌕𐌉𐌍Ᏽ ıllıllı VM·Protocols
-
-{🧰}
-
+##
+##
+{🦾🔁⚙️}
+--------------
+/BDos·board  |
+//noCatche   |
+///SDK-ajs   |
+-------------'
 ###
 ###
 __basicMaze AI__
-*  ultrathin ML sandbox => GeoBricks 𓏠 Independent GPT created by the author. Not affiliated with or officially recommended by OpenAI.
+*  ultrathin pretrained ML sandbox => GeoBricks.env 𓏠 Independent GPT created by the author. Not affiliated with or officially recommended by OpenAI.
 *  Output: basic deployable neural network 🪴
 *  binary W/B logic, 10 connectors
 *  25++ programming languages
 *  SQL architecture
 *  shell input 💉
-
 ###
 ###
 JS Bin: 
 An open source collaborative web development and debugging tool🚯
-
 ###
 ###
 const CodeVerter = () => {
-  const languages = [
--    'Python', 'JavaScript', 'TypeScript', 'Java', 'C++', 'C#', 'C', 'Go', 
--    'Rust', 'Swift', 'Kotlin', 'PHP', 'Ruby', 'Scala', 'R', 'MATLAB', 
--    'Perl', 'Haskell', 'Lua', 'Dart', 'Elixir', 'F#', 'Clojure', 
--    'Objective-C', 'Visual Basic'
--    ];
+  const languages = [ ]
 ###
 ###
 ----------------------------------
