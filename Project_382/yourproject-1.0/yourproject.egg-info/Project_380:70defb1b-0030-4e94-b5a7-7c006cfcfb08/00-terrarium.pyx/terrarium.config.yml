@@ -1,0 +1,25 @@
+# terrarium.config.yml
+# Configuration for your 9-tile snake pipe
+
+version: 0.1.0
+lab_container: terrarium.pyx
+python_env: miniconda
+
+tiles: 9
+
+test_tubes:
+  - name: mini-May
+    type: mathLog
+    container: bare
+  - name: mini-Lucy
+    type: logic+music
+    container: orchestration
+
+orchestration:
+  platforms:
+    - Duolingo
+    - KhanAcademy
+    - WolframMath
+datasets:
+  audio:
+    - SelectedMusicalSessions  # private, high-fidelity recordings

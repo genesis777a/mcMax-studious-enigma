@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yourproject🪧"
+version = "0.1.0"
+description = "Minimal scaffold added by AI-assistant to enable local setup and speed-up-cython tests"
+authors = [ { name = "GENESIS24⭕" } ]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+test = ["pyxtest"]
+dev = ["pyxtest", "flake8", "black", "mypyx"]
+
+[project.urls]
+"homepage" = "https://genesis777a.github.io/vigilant-doodle/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
