@@ -1,6 +1,6 @@
 SANDBOX.env
 ###
-Termit 🐜
+MayoBlock 🐜
 * = an automated plugging tool.
 * BOT-able -> random walk.
 * simulates a PC virus behavior.
@@ -36,3 +36,4 @@ __autoParsingFunc
 ---------------------------------
 ```
 ©GENESIS24⭕️
+
