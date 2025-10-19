@@ -8,8 +8,8 @@ Start.
 ###
 Python vs. JavaScript tournament!
 ###
-/selfLearningBrick1 vs. 
-selfLearningBrick2
+/selfLearningBlock1 vs. 
+selfLearningBlock2
 -----------------------------
 ${terraform.workspace}dApp_⿻
 ###
