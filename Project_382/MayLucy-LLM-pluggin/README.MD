@@ -1,6 +1,6 @@
 Language plugin
 ##
-* pre-trained Gram-Duo-Math containerised orchestration
+* pre-trained Gram-Duo-Math containerised orchestration arm-32
 ##
 ##
 machineVision.dev | @genesis24AG
